@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Car</span>Saga</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">sevices</a>
+        <a href="#sportscar">sportscar</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header>
+
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>User login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>forget your password <a href="#">click here</a> </p>
+        <input type="submit" vale="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn">Google</a>
+            <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>don't have an account <a href="#">craete one</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your dream</h3>
+
+    <img data-speed="5" class="home-parallax" src="images/cars.png" alt="">
+
+    <a data-speed="7" href="#" class="btn home-parallax">explore</a>
+</section>
+
+<!--tast done-->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>1000+</h3>
+            <p>branches</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa-solid fa-check"></i>
+        <div class="content">
+            <h3>10,000+</h3>
+            <p>Cars sold</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa-solid fa-face-smile"></i>
+        <div class="content">
+            <h3>5000+</h3>
+            <p>happy customers</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa-solid fa-car-on"></i>
+        <div class="content">
+            <h3>500+</h3>
+            <p>new cars</p>
+        </div>
+    </div>
+</section>
+
+<!--CARS SLIDER PART-->
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading">popular <span>vehicles</span></h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/porsche911s.png" alt="Porsche 911 GT3">
+                <div class="content">
+                    <h3>Porsche 911 GT3</h3>
+                    <div class="price"><span>price :</span>₹1,11,00,00/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2009
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>200+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="images/porsche Convertible.png" alt="Porsche Convertible 2020">
+                <div class="content">
+                    <h3>Porsche Convertible 2020</h3>
+                    <div class="price"><span>price :</span>₹95,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2020
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>200+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>    
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/koenigsegg.png" alt="Koenigsegg Agera">
+                <div class="content">
+                    <h3>Koenigsegg Agera</h3>
+                    <div class="price"><span>price :</span>₹95,40,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2016
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>280+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/paganizonda.png" alt="Pagani Zonda">
+                <div class="content">
+                    <h3>Pagani Zonda</h3>
+                    <div class="price"><span>price :</span>₹55,50,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2021
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>200+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/mclaren 720s.png" alt="McLaren 720s">
+                <div class="content">
+                    <h3>McLaren 720s</h3>
+                    <div class="price"><span>price :</span>$5,15,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2019
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>300+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/huracan.png" alt="Lamborgini Huracan">
+                <div class="content">
+                    <h3>Lamborgini Huracan</h3>
+                    <div class="price"><span>price :</span>$3,05,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2016
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>300+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/maserati9.png" alt="Maserati granturismo">
+                <div class="content">
+                    <h3>Maserati granturismo</h3>
+                    <div class="price"><span>price :</span>₹3,11,99,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2021
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>200+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/bugattichiron.png" alt="Bugatti Chiron">
+                <div class="content">
+                    <h3>Bugatti Chiron</h3>
+                    <div class="price"><span>price :</span>₹1,00,00,00,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2021
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>400+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/bmwS7.png" alt="BMW series 7">
+                <div class="content">
+                    <h3>BMW series 7</h3>
+                    <div class="price"><span>price :</span>₹3,11,99,000/- </div>
+                    <p>
+                        <i class="fa-solid fa-circle-notch"></i>2017
+                        <i class="fa-solid fa-circle-notch"></i>automatic
+                        <i class="fa-solid fa-circle-notch"></i>petrol
+                        <i class="fa-solid fa-circle-notch"></i>300+kmph
+                    </p>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--CAR SERVICES PART-->
+<section class="services" id="services">
+
+    <h1 class="heading">our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fa-solid fa-car"></i>
+            <h3>car selling</h3>
+            <p>"Drive away in your dream car today!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-screwdriver-wrench"></i>
+            <h3>parts repair</h3>
+            <p>Fix it right with our genuine parts and expert technicians!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-user-nurse"></i>
+            <h3>car insurance</h3>
+            <p>"Safeguard your vehicle with our reliable insurance coverage!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-car-battery"></i>
+            <h3>battary replacement</h3>
+            <p>"Power up your ride with our expert battery services!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-oil-well"></i>
+            <h3>oil change</h3>
+            <p> "Keep your engine purring with our oil change services!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24x7 support</h3>
+            <p>"Never out of sync - Our 24/7 service is always available!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--Sports car section-->
+
+<section class="sportscar" id="sportscar">
+
+    <h1 class="heading"> <span>sportscar</span> cars </h1>
+
+    <div class="swiper sportscar-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/porsche4.png" alt="">
+                <div class="content">
+                    <h3>Porsche 917 4</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹2,21,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+        
+
+            <div class="swiper-slide box">
+                <img src="images/nissannismogtr.png" alt="">
+                <div class="content">
+                    <h3>Nissan Nismo GT-R</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹2,51,90,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/bmwM3cs.png" alt="">
+                <div class="content">
+                    <h3>BMW M4 CS</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">₹3,00,70,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/astonmartindb9.png" alt="">
+                <div class="content">
+                    <h3>ASTON MARTIN DB9</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">₹30,00,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/astonvantageGt4.png" alt="">
+                <div class="content">
+                    <h3>Aston Martin Ventage GT4</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹5,00,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/paganizondar.png" alt="">
+                <div class="content">
+                    <h3>Pagani Zonda R</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹1,95,80,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/supra.png" alt="">
+                <div class="content">
+                    <h3>Supra MK4</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹80,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/audir8.png" alt="">
+                <div class="content">
+                    <h3>Audi R8</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹4,03,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/porsche911gt.png" alt="">
+                <div class="content">
+                    <h3>Porsche 911 GT</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹6,00,00,000/-</div>
+                    <a href="#" class="btn">Look into</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--NEWSLETTER PART-->
+
+<section class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <p>Stay updated with our latest news and offers.</p>
+
+        <form action="">
+            <input type="email" placeholder="Enter your email">
+            <input type="submit" value="Subscribe">
+        </form>
+</section>
+
+<!--REVIEW SECTION PART-->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading">client's <span>review</span></h1>
+
+    <div class="reviews review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/steve.jpg" alt="Steve">
+                <div class="content">
+                    <h3>Steve</h3>
+                    <p>"Excellent service from the sales team! They were knowledgeable and helped me find the perfect car."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/eddie.jpg" alt="Eddie">
+                <div class="content">
+                    <h3>Eddie</h3>
+                    <p>"The showroom had a great selection of cars, but the sales team could be more knowledgeable about the features."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/max.jpg" alt="Max">
+                <div class="content">
+                    <h3>Max</h3>
+                    <p>"I recently purchased a car from this showroom and I'm extremely satisfied with the whole process."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/jonathan.jpg" alt="Jonathan">
+                <div class="content">
+                    <h3>Jonathan</h3>
+                    <p>"I had a great experience at this showroom. The staff were friendly and accommodating."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Nancy.jpg" alt="Nancy">
+                <div class="content">
+                    <h3>Nancy</h3>
+                    <p>"The showroom was clean and well-organized, but the prices were a bit higher than I'd expected."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/billy.jpg" alt="Billy">
+                <div class="content">
+                    <h3>Billy</h3>
+                    <p>"Overall, I was happy with my experience, but there were some minor issues with the car's delivery."</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--CONTACT PART-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6613.176352470511!2d76.3795464239518!3d15.274841013420806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1745043369358!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>Engage with our team</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="tel" placeholder="telephone number" class="box">
+            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" placeholder="send massage" class="box">
+        </form>
+
+    </div>
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>india</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>japan</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>germany</a>
+            <a hrerf="#"> <i class="fas fa-map-marker-alt"></i>italy</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>USA</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>home</a>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>vehicles</a>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>servies</a>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>sportscar</a>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>reviews</a>
+            <a href="#"> <i class="fa-solid fa-circle-right"></i></i>contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i>+808-295-4769</a>
+            <a href="#"> <i class="fas fa-phone"></i>+808-295-4770</a>
+            <a href="#"> <i class="fas fa-envelope"></i>CarSaga@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Karnataka , india - 583201</a>
+        </div>
+
+        <div class="box">
+            <h3>socail media</h3>
+            <a href="#"> <i class="fa-brands fa-facebook"></i>facebook</a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i>instagram</a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i>twitter</a>
+            <a href="#"> <i class="fa-brands fa-linkedin"></i>linkedin</a>
+            <a href="#"> <i class="fa-brands fa-pinterest"></i>printerest</a>
+        </div>
+    </div>
+
+    <div class="credit">© syedaltaf_16 | all rights reserved</div>
+</section>
+
+ <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
